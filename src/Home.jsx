@@ -2,6 +2,8 @@ import React from 'react'
 import 
 { BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsFillBellFill}
  from 'react-icons/bs'
+ import { MdAttachMoney } from "react-icons/md";
+
  import 
  { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } 
  from 'recharts';
@@ -71,19 +73,33 @@ function Home() {
             </div>
             <div className='card'>
                 <div className='card-inner'>
-                    <h3>Ttổng tiền người chơi nạp </h3>
-                    <BsFillGrid3X3GapFill className='card_icon'/>
+                    <h3>Tổng tiền người chơi nạp </h3>
+                    <MdAttachMoney  className='card_icon'/>
                 </div>
                 <h1>12</h1>
             </div>
             <div className='card'>
                 <div className='card-inner'>
-                    <h3>Tổng tiền người chơi đã rút</h3>
+                    <h3>Tổng tiền người chơi  rút</h3>
+                    <MdAttachMoney  className='card_icon'/>
+                </div>
+                <h1>33</h1>
+            </div>
+            <div className='card'>
+                <div className='card-inner'>
+                    <h3>Tổng  người chơi </h3>
                     <BsPeopleFill className='card_icon'/>
                 </div>
                 <h1>33</h1>
             </div>
-            {/*<div className='card'>*/}
+            <div className='card'>
+                <div className='card-inner'>
+                    <h3>Tổng Coin còn lại </h3>
+                    <MdAttachMoney  className='card_icon'/>
+                </div>
+                <h1>33</h1>
+            </div>
+            {/* <div className='card'>*/}
             {/*    <div className='card-inner'>*/}
             {/*        <h3>ALERTS</h3>*/}
             {/*        <BsFillBellFill className='card_icon'/>*/}
@@ -91,7 +107,7 @@ function Home() {
             {/*    <h1>42</h1>*/}
             {/*</div> */}
         </div>
-{/* 
+
         <div className='charts'>
             <ResponsiveContainer width="100%" height="100%">
             <BarChart
@@ -137,7 +153,7 @@ function Home() {
                 </LineChart>
             </ResponsiveContainer>
 
-        </div> */}
+        </div>
         <MyDataGrid/>
     </main>
   )
