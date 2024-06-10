@@ -94,7 +94,7 @@ function Home() {
             </div>
             <div className='card'>
                 <div className='card-inner'>
-                    <h3>Tổng Coin còn lại </h3>
+                    <h3>Tổng Token đang có </h3>
                     <MdAttachMoney  className='card_icon'/>
                 </div>
                 <h1>33</h1>
