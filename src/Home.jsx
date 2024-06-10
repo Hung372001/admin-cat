@@ -5,6 +5,7 @@ import
  import 
  { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } 
  from 'recharts';
+ import  MyDataGrid from './table'
 
 function Home() {
 
@@ -90,7 +91,7 @@ function Home() {
             {/*    <h1>42</h1>*/}
             {/*</div> */}
         </div>
-
+{/* 
         <div className='charts'>
             <ResponsiveContainer width="100%" height="100%">
             <BarChart
@@ -136,7 +137,8 @@ function Home() {
                 </LineChart>
             </ResponsiveContainer>
 
-        </div>
+        </div> */}
+        <MyDataGrid/>
     </main>
   )
 }
