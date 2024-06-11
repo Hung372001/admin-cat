@@ -94,7 +94,21 @@ function Home() {
             </div>
             <div className='card'>
                 <div className='card-inner'>
-                    <h3>Tổng Token đang có </h3>
+                    <h3>Tổng Token đào trong ngày </h3>
+                    <MdAttachMoney  className='card_icon'/>
+                </div>
+                <h1>33</h1>
+            </div>
+            <div className='card'>
+                <div className='card-inner'>
+                    <h3>Tổng Token đã đào </h3>
+                    <MdAttachMoney  className='card_icon'/>
+                </div>
+                <h1>33</h1>
+            </div>
+            <div className='card'>
+                <div className='card-inner'>
+                    <h3>Tổng lượt giao dịch </h3>
                     <MdAttachMoney  className='card_icon'/>
                 </div>
                 <h1>33</h1>
